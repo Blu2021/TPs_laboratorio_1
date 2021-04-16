@@ -36,12 +36,13 @@ int division(float numeroUno,float numeroDos,float* resultadoDivisionMenu)
 
 	 if(resultadoDivisionMenu!=NULL)
 	 {
+		 exito=2;
 		 if(numeroDos!=0)
 		 {
 			resultadoDivisionFuncion=numeroUno/numeroDos;
 			*resultadoDivisionMenu=resultadoDivisionFuncion;
+			exito=1;
 		 }
-		 exito=1;
 	 }
 	 return exito;
 }
@@ -60,7 +61,7 @@ int multiplicar(float numeroUno,float numeroDos,float* resultadoMultiplicarMenu)
 	return exito;
 }
 
-int factorial(float numeroFactorial,long* resultadoFactorialMenu)
+int factorial(float numeroFactorial,unsigned long* resultadoFactorialMenu)
 {
 	int exito=0;
 	int i;
@@ -69,15 +70,16 @@ int factorial(float numeroFactorial,long* resultadoFactorialMenu)
 
 	if(resultadoFactorialMenu!=NULL)
 	{
-		if(numeroFactorial-numUno==0&&numUno<34&&numUno>-1)
+		exito=2;
+		if(numeroFactorial-numUno==0&&numUno<13&&numUno>-1)
 		{
 			for(i=numUno;i>1;i--)
 			{
 				resFactorialFuncion=resFactorialFuncion*i;
 			}
 			*resultadoFactorialMenu=resFactorialFuncion;
+			exito=1;
 		}
-		exito=1;
 	}
 	return exito;
 }

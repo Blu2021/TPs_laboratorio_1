@@ -1,0 +1,4 @@
+14:49:06 **** Incremental Build of configuration Debug for project Trabajo Practico 1 ****
+Info: Internal Builder is used for build
+gcc -o "Trabajo Practico 1.exe" "src\\Trabajo Practico 1.o" "src\\calculadoraFunciones.o" "src\\menuCalculadora.o" 
+Info: Nothing to build for Trabajo Practico 1

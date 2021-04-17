@@ -1,0 +1,10 @@
+c_multi_line_comment=64,128,128
+c_multi_line_comment_bold=true
+c_single_line_comment=128,128,64
+eclipse.preferences.version=1
+inactiveCodeColor=192,192,192
+matchingBracketsColor=128,128,128
+sourceHoverBackgroundColor=35,32,30
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

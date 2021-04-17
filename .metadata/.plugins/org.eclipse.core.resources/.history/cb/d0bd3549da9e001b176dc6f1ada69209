@@ -1,0 +1,26 @@
+#ifndef CALCULADORAFUNCIONES_H_
+#define CALCULADORAFUNCIONES_H_
+/*
+ * @Brief sumar realiza la suma de dos numeros.
+ * @param recibe dos numeros para sumar y un puntero al cual cargarle el resultado.
+ * @return retorna  1 en caso de que haya validado que el puntero se recibio correctamente.
+ *         retorna  0 en caso contrario.
+ */
+int sumar(float numeroUno,float numeroDos,float* resultadoSumaMenu);
+/*
+ * @brief restar realiza la resta de dos numeros.
+ * @param recibe dos numeros para estar y un puntero al cual cargarle el resultado.
+ * @return retorna 1 en caso de que haya validiado que el puntero se recibio correctamente.
+ * 		   retorna 0 en caso contrario.
+ */
+int restar(float numeroUno,float numeroDos,float* resultadoRestaMenu);
+/*
+ * @brief division realiza la division de dos numeros.
+ * @param recibe dos numeros para dividir y un puntero al cual cargarla el resultado.
+ * @return retorna 1
+ */
+int division(float numeroUno,float numeroDos,float* resultadoDivisionMenu);
+int multiplicar(float numeroUno,float numeroDos,float* resultadoMultiplicarMenu);
+int factorial(float numeroFactorial,unsigned long* resultadoFactorialMenu);
+
+#endif /* CALCULADORAFUNCIONES_H_ */

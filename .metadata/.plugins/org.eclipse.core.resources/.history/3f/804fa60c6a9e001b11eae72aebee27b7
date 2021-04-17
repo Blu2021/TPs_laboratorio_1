@@ -1,0 +1,14 @@
+#ifndef MENUCALCULADORA_H_
+#define MENUCALCULADORA_H_
+/*
+ * @brief menu pide el ingreso de una opcion validando que sea del 1 al 5 ,
+ * una vez validada la opcion , en el caso 1 solicita el ingreso de un numero,
+ * en el caso 2 solicita el ingreso de otro numero,
+ * en el caso 3 realiza operaciones de suma,resta,multiplicacion,division y factorial de ambos numeros solicitados
+ * y lo realiza invocando funciones de calculo.
+ * en el caso 4 muestra los resultados al usuario , y en el resultado de division y en el de factorial informa
+ * errores que validan las funciones respectivas.
+ */
+int menu();
+
+#endif /* MENUCALCULADORA_H_ */

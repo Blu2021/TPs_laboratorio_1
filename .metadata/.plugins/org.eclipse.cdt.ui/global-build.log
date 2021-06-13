@@ -1,6 +1,4 @@
-22:18:50 **** Incremental Build of configuration Debug for project Trabajo Practico 2 ****
+00:13:30 **** Incremental Build of configuration Debug for project tp3_windows ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayDeEmpleados.o" "..\\src\\arrayDeEmpleados.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trabajo Practico 2.o" "..\\src\\Trabajo Practico 2.c" 
-gcc -o "Trabajo Practico 2.exe" "src\\Trabajo Practico 2.o" "src\\arrayDeEmpleados.o" "src\\blu2021.o" 
-Info: Nothing to build for Trabajo Practico 2
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\Multiple 92\\Desktop\\RepositoriosClonados\\TPS-programacion-1-cuatri\\tp3_windows" -o tp3_windows.exe Controller.o Employee.o blu2021.o main.o parser.o -lLinkedList 

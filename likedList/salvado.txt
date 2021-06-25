@@ -1,0 +1,2 @@
+idEmpleado,nombre,horas,sueldo
+2,mirandita,60,100000

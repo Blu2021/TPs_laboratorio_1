@@ -1,4 +1,5 @@
-00:13:30 **** Incremental Build of configuration Debug for project tp3_windows ****
+11:39:06 **** Incremental Build of configuration Debug for project likedList ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc "-LC:\\Users\\Multiple 92\\Desktop\\RepositoriosClonados\\TPS-programacion-1-cuatri\\tp3_windows" -o tp3_windows.exe Controller.o Employee.o blu2021.o main.o parser.o -lLinkedList 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LinkedList.o "..\\LinkedList.c" 
+gcc -o likedList Controller.o Employee.o LinkedList.o blu2021.o main.o parser.o "src\\LinkedList.o" "src\\mainUno.o" "testing\\src\\Employee.o" "testing\\src\\addNodeTest.o" "testing\\src\\addTest.o" "testing\\src\\clearTest.o" "testing\\src\\cloneTest.o" "testing\\src\\containsAllTest.o" "testing\\src\\containsTest.o" "testing\\src\\deleteLinkedListTest.o" "testing\\src\\getNodeTest.o" "testing\\src\\getTest.o" "testing\\src\\indexOfTest.o" "testing\\src\\isEmptyTest.o" "testing\\src\\lenTest.o" "testing\\src\\main_test.o" "testing\\src\\newTest.o" "testing\\src\\popTest.o" "testing\\src\\pushTest.o" "testing\\src\\removeTest.o" "testing\\src\\setTest.o" "testing\\src\\sortTest.o" "testing\\src\\subListTest.o" "testing\\utest.o" 
